@@ -1,0 +1,41 @@
+{
+  "data_scale": 178043923114.66666,
+  "noise_scale": 1.0,
+  "load_noise": true,
+  "noise_dt": 4e-08,
+  "sim_dt": 2.4e-07,
+  "sim_nt": 876,
+  "net_nt": 876,
+  "normalize_need": true,
+  "shift_enabled": true,
+  "crop_enabled": true,
+  "crop_rows": [
+    64,
+    448
+  ],
+  "crop_cols": [
+    300,
+    684
+  ],
+  "interval": 32,
+  "augment_flip": true,
+  "further_scaling": 1.0,
+  "TOF_filt_enabled": true,
+  "filt_strength": 1.0,
+  "filt_max_ratio": 1.0,
+  "gap_prob": 0.75,
+  "gap_max_ratio": 0.8,
+  "gap_max_grid": [
+    20,
+    40
+  ],
+  "batch_size": 32,
+  "num_epochs": 100,
+  "lr": 0.0001,
+  "val_ratio": 0.1,
+  "subset_ratio": 1.0,
+  "use_checkpoint": true,
+  "use_bn": true,
+  "dropout_prob": 0.2,
+  "base_channel": 64
+}

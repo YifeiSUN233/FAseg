@@ -1,0 +1,5 @@
+pretrain_dir=/home/yifei-sun/AgentWork/FAseg for github/outputs/pretraining
+pretrain_epoch=84
+strategy=best_s3
+best_ft_epoch=22
+best_ft_val=0.013371

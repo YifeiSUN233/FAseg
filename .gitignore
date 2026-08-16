@@ -1,0 +1,32 @@
+# ----------------------------------------------------------------------
+# The demonstration data (datasets/), the pretraining checkpoints and the
+# inference results (outputs/) ARE intentionally version-controlled here —
+# see datasets/README.md and outputs/README.md. Do not add blanket rules
+# for *.pth / *.npy / *.bin / *.dat, or they will be excluded.
+# ----------------------------------------------------------------------
+
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor / IDE config
+.vscode/
+.idea/
+
+# Environment files (secrets)
+.env
+*.env
+
+# Claude Code local settings (regenerated per-user)
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

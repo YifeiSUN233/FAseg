@@ -1,0 +1,6 @@
+pretrain_dir=/data/projects/AgentWork/FAseg for github/outputs/pretraining_no_tof
+pretrain_epoch=92
+pretrain_val_loss=0.003737
+strategy=best_s3
+fine_tuning=False
+dataset=exvivo (manual_seg_beef, slice_32)

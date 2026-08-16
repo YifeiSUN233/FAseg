@@ -1,0 +1,6 @@
+pretrain_dir=/home/yifei-sun/AgentWork/FAseg for github/outputs/pretraining
+pretrain_epoch=84
+strategy=best_s3
+dataset=exvivo (manual_seg_beef, src 128–384)
+best_ft_epoch=46
+best_ft_val=0.009809
