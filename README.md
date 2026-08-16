@@ -1,10 +1,10 @@
 # FAseg — First-Arrival (FA) Time Segmentation
 
-A 3-stage curriculum U-Net training pipeline for first-arrival (FA) time
-segmentation of limb boundaries in ultrasound signals. It is a
-simulation-to-real (Sim2Real) workflow: the model is first pretrained on
-synthetic data, then separately fine-tuned and evaluated on ex vivo bovine
-tissue and on in vivo human thigh measurements.
+A 3-stage curriculum U-Net training pipeline for first-arrival (FA) time picking
+from musculoskeletal ultrasound RF signals. It follows a simulation-to-real (Sim2Real)
+workflow: the model is first pretrained on synthetic RF data, and then separately 
+fine-tuned and evaluated on ex vivo bovine tissue data and in vivo human thigh
+measurements.
 
 ## Overview
 
