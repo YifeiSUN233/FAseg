@@ -1,14 +1,16 @@
-# FAseg — First-Arrival (FA) Time Segmentation
+# FBseg — First-Break (FB) Time Segmentation
 
-A 3-stage curriculum U-Net training pipeline for first-arrival (FA) time picking
+A 3-stage curriculum U-Net training pipeline for first-break (FB) time picking
 from musculoskeletal ultrasound RF signals. It follows a simulation-to-real (Sim2Real)
 workflow: the model is first pretrained on synthetic RF data, and then separately 
 fine-tuned and evaluated on ex vivo bovine tissue data and in vivo human thigh
 measurements.
 
+**Terminology note:** This repository uses *first break (FB)* as the primary term. For compatibility with earlier versions of the code, *first arrival (FA)* is retained in some package names, file paths, variables, and comments. In this repository, FA and FB refer to the same target arrival-picking task.
+
 ## Overview
 
-The pipeline trains a 2D U-Net to localize the first-arrival (FA) boundary of
+The pipeline trains a 2D U-Net to localize the first-arrival boundary of
 the limb in TOF ultrasound signals, using a three-stage curriculum:
 
 | Stage | Curriculum | Purpose |
@@ -20,7 +22,7 @@ the limb in TOF ultrasound signals, using a three-stage curriculum:
 ## Repository structure
 
 ```
-FAseg/
+FBseg/
 ├── README.md
 ├── environment.yml                  # Conda environment
 ├── .gitignore
